@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN" "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+<resources>
+    <jdbc-connection-pool allow-non-component-callers="false" associate-with-thread="false" connection-creation-retry-attempts="0" connection-creation-retry-interval-in-seconds="10" connection-leak-reclaim="false" connection-leak-timeout-in-seconds="0" connection-validation-method="auto-commit" datasource-classname="com.microsoft.sqlserver.jdbc.SQLServerDataSource" fail-all-connections="false" idle-timeout-in-seconds="300" is-connection-validation-required="false" is-isolation-level-guaranteed="true" lazy-connection-association="false" lazy-connection-enlistment="false" match-connections="false" max-connection-usage-count="0" max-pool-size="32" max-wait-time-in-millis="60000" name="microsoft_sql_BanHang_saPool" non-transactional-connections="false" pool-resize-quantity="2" res-type="javax.sql.DataSource" statement-timeout-in-seconds="-1" steady-pool-size="8" validate-atmost-once-period-in-seconds="0" wrap-jdbc-objects="false">
+        <property name="serverName" value="localhost"/>
+        <property name="portNumber" value="1433"/>
+        <property name="databaseName" value="BanHang"/>
+        <property name="User" value="sa"/>
+        <property name="Password" value="b3k0jl0v3"/>
+        <property name="URL" value="jdbc:sqlserver://localhost:1433;databaseName=BanHang"/>
+        <property name="driverClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+    </jdbc-connection-pool>
+    <jdbc-resource enabled="true" jndi-name="banhang" object-type="user" pool-name="microsoft_sql_BanHang_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhang1" object-type="user" pool-name="microsoft_sql_BanHang_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhang2" object-type="user" pool-name="microsoft_sql_BanHang_saPool"/>
+    <jdbc-connection-pool allow-non-component-callers="false" associate-with-thread="false" connection-creation-retry-attempts="0" connection-creation-retry-interval-in-seconds="10" connection-leak-reclaim="false" connection-leak-timeout-in-seconds="0" connection-validation-method="auto-commit" datasource-classname="com.microsoft.sqlserver.jdbc.SQLServerDataSource" fail-all-connections="false" idle-timeout-in-seconds="300" is-connection-validation-required="false" is-isolation-level-guaranteed="true" lazy-connection-association="false" lazy-connection-enlistment="false" match-connections="false" max-connection-usage-count="0" max-pool-size="32" max-wait-time-in-millis="60000" name="microsoft_sql_BanHang3_saPool" non-transactional-connections="false" pool-resize-quantity="2" res-type="javax.sql.DataSource" statement-timeout-in-seconds="-1" steady-pool-size="8" validate-atmost-once-period-in-seconds="0" wrap-jdbc-objects="false">
+        <property name="serverName" value="localhost"/>
+        <property name="portNumber" value="1433"/>
+        <property name="databaseName" value="BanHang3"/>
+        <property name="User" value="sa"/>
+        <property name="Password" value="b3k0jl0v3"/>
+        <property name="URL" value="jdbc:sqlserver://localhost:1433;databaseName=BanHang3"/>
+        <property name="driverClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+    </jdbc-connection-pool>
+    <jdbc-resource enabled="true" jndi-name="banhang3" object-type="user" pool-name="microsoft_sql_BanHang3_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhang5" object-type="user" pool-name="microsoft_sql_BanHang_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhan6" object-type="user" pool-name="microsoft_sql_BanHang_saPool"/>
+    <jdbc-connection-pool allow-non-component-callers="false" associate-with-thread="false" connection-creation-retry-attempts="0" connection-creation-retry-interval-in-seconds="10" connection-leak-reclaim="false" connection-leak-timeout-in-seconds="0" connection-validation-method="auto-commit" datasource-classname="com.microsoft.sqlserver.jdbc.SQLServerDataSource" fail-all-connections="false" idle-timeout-in-seconds="300" is-connection-validation-required="false" is-isolation-level-guaranteed="true" lazy-connection-association="false" lazy-connection-enlistment="false" match-connections="false" max-connection-usage-count="0" max-pool-size="32" max-wait-time-in-millis="60000" name="microsoft_sql_BanHang2_saPool" non-transactional-connections="false" pool-resize-quantity="2" res-type="javax.sql.DataSource" statement-timeout-in-seconds="-1" steady-pool-size="8" validate-atmost-once-period-in-seconds="0" wrap-jdbc-objects="false">
+        <property name="serverName" value="localhost"/>
+        <property name="portNumber" value="1433"/>
+        <property name="databaseName" value="BanHang2"/>
+        <property name="User" value="sa"/>
+        <property name="Password" value="b3k0jl0v3"/>
+        <property name="URL" value="jdbc:sqlserver://localhost:1433;databaseName=BanHang2"/>
+        <property name="driverClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+    </jdbc-connection-pool>
+    <jdbc-resource enabled="true" jndi-name="banhang12" object-type="user" pool-name="microsoft_sql_BanHang2_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhanok" object-type="user" pool-name="microsoft_sql_BanHang2_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="bh" object-type="user" pool-name="microsoft_sql_BanHang2_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhangfinal" object-type="user" pool-name="microsoft_sql_BanHang2_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhangok" object-type="user" pool-name="microsoft_sql_BanHang_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="bh3" object-type="user" pool-name="microsoft_sql_BanHang3_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhang2ok" object-type="user" pool-name="microsoft_sql_BanHang2_saPool"/>
+    <jdbc-resource enabled="true" jndi-name="banhang2final" object-type="user" pool-name="microsoft_sql_BanHang2_saPool"/>
+</resources>
